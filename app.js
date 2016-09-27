@@ -4,8 +4,6 @@ function getMusic() {
     itunes.getMusicByArtist(artist).then(drawSongs);
 }
 
-var collection = song.collection;
-
 function drawSongs(songList) {
 
     function sortOn(property) {
